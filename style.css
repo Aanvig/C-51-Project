@@ -1,0 +1,45 @@
+h2 {
+    color: darkCyan;
+}
+h3 {
+    color: darkorchid
+}
+*{
+    text-align: center
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(164, 55%, 83%);  
+    font-size:20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:white; 
+}
+
+body{
+    background-color: whitesmoke
+}
+
+.grid {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    border:1px solid black;
+    border-radius: 50px;
+    
+}
+
+.origami {
+    border-radius: 20px;
+    background-color: lightCyan;
+    width: 310px;
+    font-family: cursive;
+
+}
+
+.bodyimg{
+    background-image: radial-gradient(circle,lightCyan 30%, lightPink 50%)
+}
